@@ -1,0 +1,43 @@
+.navbarbgcolor
+{
+  background-color: black;
+}
+.navbar
+{
+  font-family: "Poppins", serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+
+  box-shadow: 0 8px -6px gray;
+  --webkit-box-shadow:0 8px -6px gray;
+  border-bottom: solid gray !important ;
+ }
+
+ .nav-link{
+  color: var(---yellow-theme-main-color);
+  cursor: pointer;
+  font-weight: 300 !important ;
+ }
+ .active{
+
+  background:var(---yellow-theme-main-color);
+ 
+  left: 0px;
+  opacity: 1;
+
+  /* border-bottom: 1px soild black;
+  border-bottom: 1px solid var(---yellow-theme-main-color); */
+ }
+
+ .nav-link:hover{
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba ;
+}
+ .navbar-brand
+ {
+  font-weight: 700;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 3px;
+  color: var(---yellow-theme-main-color);
+ }
